@@ -138,6 +138,19 @@ enum CalculatorBrain {
     }
 }
 
+typealias CalculatorState = CalculatorBrain
+typealias CalculatorStateAction = CalculatorButtonItem
+
+struct Reducer {
+    static func reduce (
+        state: CalculatorState,
+        action: CalculatorStateAction
+    ) -> CalculatorState
+    {
+        return state.apply(item: action)
+    }
+}
+
 var formatter: NumberFormatter = {
     let f = NumberFormatter()
     f.minimumFractionDigits = 0

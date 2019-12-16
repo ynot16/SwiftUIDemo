@@ -13,6 +13,7 @@
 		41B0E08023A4ED0800F76F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B0E07F23A4ED0800F76F11 /* Assets.xcassets */; };
 		41B0E08323A4ED0800F76F11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B0E08223A4ED0800F76F11 /* Preview Assets.xcassets */; };
 		41B0E08623A4ED0800F76F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B0E08423A4ED0800F76F11 /* LaunchScreen.storyboard */; };
+		8F6D3B7F23A5D35D00664AA4 /* CaculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D3B7E23A5D35D00664AA4 /* CaculatorButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41B0E08223A4ED0800F76F11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41B0E08523A4ED0800F76F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41B0E08723A4ED0800F76F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6D3B7E23A5D35D00664AA4 /* CaculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				41B0E07923A4ED0600F76F11 /* AppDelegate.swift */,
 				41B0E07B23A4ED0600F76F11 /* SceneDelegate.swift */,
 				41B0E07D23A4ED0600F76F11 /* ContentView.swift */,
+				8F6D3B7E23A5D35D00664AA4 /* CaculatorButtonItem.swift */,
 				41B0E07F23A4ED0800F76F11 /* Assets.xcassets */,
 				41B0E08423A4ED0800F76F11 /* LaunchScreen.storyboard */,
 				41B0E08723A4ED0800F76F11 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B0E07A23A4ED0600F76F11 /* AppDelegate.swift in Sources */,
+				8F6D3B7F23A5D35D00664AA4 /* CaculatorButtonItem.swift in Sources */,
 				41B0E07C23A4ED0600F76F11 /* SceneDelegate.swift in Sources */,
 				41B0E07E23A4ED0600F76F11 /* ContentView.swift in Sources */,
 			);
